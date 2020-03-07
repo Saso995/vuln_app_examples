@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Topics page</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script></script>
+  </head>
+  <body>
+    <div align="center">
+      <img id = "imgbox" src="" style="width:250px;height:250px;border-radius: 12px;" />
+      <br>
+      <textarea rows="1" cols="50" id="imgSrc" style="resize:none;border-radius: 12px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">image link...</textarea>
+      <br>
+      <textarea rows="1" cols="50" id="onError" style="resize:none;border-radius: 12px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">if you can't add img, type magic words here</textarea>
+      <br>
+      <button type="button" id="imgBtn" style="border-radius: 12px;">Upload</button>
+    </div>
+    <div align="center">
+      <h2>Messages: </h2>
+      <p id="criticalArea"></p>
+      <textarea rows="1" cols="50" id="name" style="resize:none;border-radius: 12px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Your name</textarea>
+      <br>
+      <textarea rows="4" cols="50" id="text" style="resize:none;border-radius: 12px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Write here...</textarea>
+      <br>
+      <button type="button" id="submitBtn" style="border-radius: 12px;">Add</button>
+    </div>
+  </body>
+
+  <script src="../assets/js/topicPage.js"></script>
+</html>

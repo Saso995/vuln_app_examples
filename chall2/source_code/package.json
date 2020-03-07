@@ -1,0 +1,16 @@
+{
+  "name": "act_chall2",
+  "version": "1.0.0",
+  "description": "web site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "salvatore bova, 10499292",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2"
+  }
+}
